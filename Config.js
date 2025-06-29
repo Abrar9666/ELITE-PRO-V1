@@ -3,15 +3,15 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "2348109263390";
-global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
-global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
-global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
+global.ownernomer = process.env.OWNER_NOMER || "923440167840";
+global.ytname = process.env.YT_NAME || "YT: @mruniquest";
+global.socialm = process.env.SOCIAL_M || "FACEBOOK: ABRAR NOOR";
+global.location = process.env.LOCATION || "okara, Pakistan";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '2348109263390';
-global.ownername = process.env.OWNER_NAME || 'ElitePro';
-global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
+global.ownernumber = process.env.OWNER_NUMBER || '923440167840';
+global.ownername = process.env.OWNER_NAME || 'ABRAR NOOR';
+global.botname = process.env.BOT_NAME || 'HASHMI-PRO-V1';
 
 // Default settings 
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
@@ -28,7 +28,7 @@ global.autoreact = process.env.AUTO_REACT === 'true';
 global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'true';
 
 // Thumbnail profile picture
-global.elitepropp = process.env.ELITE_PRO_PP || 'https://i.ibb.co/jk0ynvbn/7a8c4b5b617fa11a1e9a61190f427546.jpg';
+global.elitepropp = process.env.ELITE_PRO_PP || 'https://ibb.co/4n5syyxj';
 // Default emoji
 global.themeemoji = process.env.THEME_EMOJI || '👨‍💻';
 
@@ -38,8 +38,8 @@ global.packname = process.env.PACKNAME || 'Sticker By';
 global.author = process.env.AUTHOR || 'ELITEPRO\n\nContact: +2348109263390';
 // Default settings 2
 global.typemenu = process.env.TYPE_MENU || 'v2';
-global.wm = process.env.WM || "Youtube @EliteProTech";
-global.link = process.env.LINK || 'https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g';
+global.wm = process.env.WM || "Youtube @abrarics";
+global.link = process.env.LINK || 'https://whatsapp.com/channel/0029Vb5qnKNHwXbHdkWdnf0Z';
 
 // Text bug
 global.xbugtex = {
